@@ -124,7 +124,7 @@ class Menu:
 	def save_all_activity(self):
 		with open("./sample_data.json", "w") as f:
 			json.dump(a, f)
-		Print("saved your all activity")
+		print("saved your all activity")
 
 
 
